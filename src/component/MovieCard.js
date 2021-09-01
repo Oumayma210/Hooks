@@ -9,7 +9,7 @@ const MovieCard = ({filteredMovies}) => {
         <div className='App'>
             {movie.map((film,i)=><MovieList MovieData={film} key={i}/>)} 
             <Add addNew={addNew}/>
-            {filteredMovies.map((film,i)=><MovieList MovieData={film} key={i} />)}
+            {filteredMovies.map((film,i) => <MovieList MovieData={film} key={i}/>)}
         </div>
     )
 }

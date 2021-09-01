@@ -30,7 +30,7 @@ export const MovieList = ({MovieData}) => {
         <CardMedia
           className={classes.media}
           image={MovieData.posterURL}
-          title="Contemplative Reptile"
+          title={MovieData.title}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

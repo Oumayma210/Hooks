@@ -6,7 +6,6 @@ import { MovieData } from './MovieData';
 function App() {
   return (
     <div >
-     <MovieCard/>
      <Search MovieData={MovieData}/>
     </div>
   );
