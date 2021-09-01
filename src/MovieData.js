@@ -1,26 +1,26 @@
 export const MovieData=[
     {
-        title:"Game of thrones",
-        description:"In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea.", 
-        posterURL: "https://m.media-amazon.com/images/I/91DjGXn7jXL._AC_SL1500_.jpg", 
-        rating:"IMDB 9.4/10 "
+        title:"Mr Roboto",
+        description:"Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies try to take down the corrupt corporation he works for.", 
+        posterURL: "https://th.bing.com/th/id/OIP.AJNFxt2XG7GRQvpSM2mgcgHaLH?pid=ImgDet&rs=1", 
+        rating:"IMDB 8.5/10 "
     },
     {
-        title:"La Casa de Papel",
-        description:"A group of very peculiar robbers assault the Factory of Moneda and Timbre to carry out the most perfect robbery in the history of Spain and take home 2.4 billion euros.", 
-        posterURL: "https://fr.web.img6.acsta.net/pictures/19/07/22/10/12/3891122.jpg", 
-        rating:"IMDB 8.6/10"
+        title:"Dark",
+        description:"A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.", 
+        posterURL: "https://cdn.myseries.tv/img/serie/big/7987-dark.jpg?1582657394", 
+        rating:"IMDB 8.8/10"
     },
     {
-        title:"The Black List",
-        description:"A highly articulate, erudite and intelligent businessman and mastermind, Red Reddington, has allegedly been on the 10 Most Wanted List of various U.S. law enforcement agencies for over 20 years. The legend is that Red is as elusive as he is clever, controlling a labyrinth of creative enterprises, coupled with uncanny ability to gather and finesse information at the drop of a hat.", 
-        posterURL: "https://fr.web.img6.acsta.net/pictures/20/10/23/18/01/4439444.jpg", 
-        rating:"IMDB 8.0/10"
+        title:"Dr house",
+        description:"An antisocial maverick doctor who specializes in diagnostic medicine does whatever it takes to solve puzzling cases that come his way using his crack team of doctors and his wits.", 
+        posterURL: "https://th.bing.com/th/id/R.47f8f6a9c642d3660ac21bd90ec37913?rik=xyR%2fP8HtVQOobA&riu=http%3a%2f%2f3.bp.blogspot.com%2f_1as5cgzysyk%2fSXbTYU3h7tI%2fAAAAAAAAAzk%2fV1AUy31O6c4%2fw1200-h630-p-k-nu%2fDr.%2bGregory%2bHouse.jpg&ehk=gWwino2MOaf%2fnSCaX%2bxPfaJaqMaTlxZU09dVBqcO5hw%3d&risl=&pid=ImgRaw&r=0", 
+        rating:"IMDB 8.7/10"
     },
     {
-        title:"Vikings",
-        description:"The adventures of Ragnar Lothbrok: the greatest hero of his age. The series tells the saga of Ragnar's band of Viking brothers and his family as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods: legend has it that he was a direct descendant of Odin, the god of war and warriors.", 
-        posterURL: "https://i.egycdn.com/pic/REl4amNJYUllY3ZjdnR0Y21ZakVjd1RiUHZOSXhtbW16.jpg", 
-        rating:"IMDB 8.6/10"
+        title:"Stranger things",
+        description:"When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.", 
+        posterURL: "https://th.bing.com/th/id/OIP.NsoFPtDWuLgLqrWT-DMfsgHaJ3?pid=ImgDet&rs=1", 
+        rating:"IMDB 8.7/10"
     }
 ]

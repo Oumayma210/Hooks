@@ -13,10 +13,10 @@ import { MovieData } from './../MovieData';
 export const MovieList = ({MovieData}) => {
     const useStyles = makeStyles({
         root: {
-          maxWidth: 290,
+          maxWidth: 230,
         },
         media: {
-          height: 150,
+          height: 300,
         },
       });
       
