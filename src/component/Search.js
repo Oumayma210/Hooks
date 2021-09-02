@@ -1,27 +1,11 @@
 import React,{useState} from 'react'
+import { MovieData } from '../MovieData';
 import MovieCard from './MovieCard';
 
 
-
-function Search({MovieData}) {
+function Search() {
     const [searchField, setSearchField] = useState("");
     
-    
-    const filteredMovies = MovieData.filter(
-    movie => {
-    return (
-        movie
-        .title
-        .toLowerCase()
-        .includes(searchField.toLowerCase()) ||
-        movie
-        .rating
-        .toLowerCase()
-        .includes(searchField.toLowerCase())
-    );
-    }
-);
-
 const handleChange = e => {
     setSearchField(e.target.value);
 
@@ -30,9 +14,10 @@ const handleChange = e => {
 
     return (
         <div>
-            <input  type = "search" placeholder = "Search Movie" onChange = {handleChange}/>
-            
-            <MovieCard filteredMovies={filteredMovies}/>
+            <div>
+                <input  type = "search" placeholder = "Search Movie" onChange = {handleChange}/>
+            </div>
+            <MovieCard searchField={searchField}/>
         </div>
 
     )
