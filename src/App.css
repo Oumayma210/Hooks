@@ -1,10 +1,14 @@
 
-/* *{margin-top: 20px;
+*{box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  font-family:'Montserrat',sans-serif;
 
-} */
-.App {
+
+}
+.movie {
   display:flex;
   justify-content: space-between;
   flex-wrap:wrap;
   
-};
+}

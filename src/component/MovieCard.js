@@ -2,11 +2,12 @@ import React, {useState} from 'react'
 import { MovieList } from './MovieList'
 import { MovieData } from './../MovieData';
 import { Add } from './Add';
+
 const MovieCard = ({searchField}) => {
     const [movie, setMovie] = useState(MovieData);
     const addNew=(newMovie)=>setMovie([...movie,newMovie])
     return (
-        <div className='App'>
+        <div className='movie'>
             {movie.filter(
     movie => {
     return (

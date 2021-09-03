@@ -18,6 +18,7 @@ const handleChange = e => {
                 <input  type = "search" placeholder = "Search Movie" onChange = {handleChange}/>
             </div>
             <MovieCard searchField={searchField}/>
+
         </div>
 
     )
